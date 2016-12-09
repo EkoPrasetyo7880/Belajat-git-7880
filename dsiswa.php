@@ -3,6 +3,9 @@ require_once('lib/DBClass.php');
 require_once('lib/m_siswa.php');
 $id = $_GET['a'];
 
+//update 9 dec 2016
+
+
 if (!is_numeric($id)){
 	exit('acces for bidden');
 }
